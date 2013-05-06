@@ -1,0 +1,12 @@
+url: "http://softvis.github.io"
+pygments: true
+exclude: [bin, Gemfile, Gemfile.lock, Makefile]
+permalink: pretty
+paginate: 20
+date_format: "%d %B %Y"
+author: "Erik Dörnenburg & Jonathan McCracken"
+
+github_user: softvis
+github_repo_count: 10
+github_show_profile_link: false
+github_skip_forks: false

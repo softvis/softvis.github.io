@@ -1,0 +1,50 @@
+/* main sections layout and formatting */
+
+div#main {
+	@extend .pagestrip;
+	margin-top: 2em;
+
+	h2 {
+		padding-bottom: 4px;
+		border-bottom: 1px solid $line-color;
+	}
+	p:first-child {
+		margin-top: 0;
+	}
+	li {
+		font-size: 100%;
+		list-style-type: disc;
+		margin-left: 1.8em;
+		line-height: 1.8em;
+	}
+	li:first-child {
+		margin-top: .8em;
+	}
+}
+
+section#content {
+	margin-bottom: 4em;
+}
+
+section#sidebar {
+	margin-bottom: 2em;
+
+	h3 {
+		margin-top: 0.7em;
+	}
+	p {
+		font-size: 0.875em;
+	}
+	article {
+		margin-bottom: 1.5em;
+	}
+}
+
+
+/* boxes on homepage */
+
+section.frontsection {
+	float: left;
+	margin: 4em $section-hspace 2em 0;
+	width: $max-width / 3 - $section-hspace - 1;
+}

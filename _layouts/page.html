@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<section id="content">
+	<h1>{{ page.title }}</h1>
+	{{ content }}
+</section>
+
+{% unless page.nosidebar %}
+<section id="sidebar">
+	<header>
+		<h2>Latest News</h2>
+	</header>
+	{% for post in site.posts limit: 3 %}
+	<article>
+		<h3>{{ post.title }}</h3>
+		<p class="postdate">{{ post.date | date:"%d %b %Y" }}
+		<p>{{ post.content }}
+	</article>
+	{% endfor %}
+	<p><a href="{{ site.baseurl }}/news">more news &rarr;</a>
+</section>
+{% endunless %}
+

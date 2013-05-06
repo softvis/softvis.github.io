@@ -1,0 +1,66 @@
+$smallscreen-width: 650px !default;
+$largescreen-width: 1000px !default;
+
+/* responsive top nav for small (presumably touch) screens */
+
+@media screen and (max-width: $smallscreen-width) {
+	div#main, div#footernav nav, div#footercopy footer  {
+		margin: 0 auto 0 auto;
+		padding: 1em 0.5em;
+	}
+	div#navmenu-btn {
+		display: block;
+	}
+	nav {
+	 	padding: 0;
+		font-size: 1.5em;
+	  	color: #EEE;
+	}
+	div#masthead nav ul {
+		position: relative;
+		padding: 0;
+		margin: 0 auto 0 auto;
+		padding:0 0 5px 0;
+		min-height: 100px; 
+		border-bottom: none;
+	}
+	div#masthead nav li {
+		padding-right: 10px;
+		text-align: right;
+	}
+	div#masthead nav li:first-child {
+		float: left;
+		position: absolute;
+		bottom: 2px;
+		left: 5px;
+	}
+	div#masthead nav li.textnav {
+		display: none;
+		text-align: right;
+		background-color: #444;
+	}
+	div#masthead nav li.textnav a {
+		color: #CCC;
+	}
+}
+
+
+/* responsive sidebar for reasonably wide screens */
+
+@media screen and (min-width:$largescreen-width) {
+  	section#content {
+		float: left;
+		width: 75%;
+	}
+  	section#sidebar {
+	   	float: right;
+	  	width: 20%;
+  	}
+	section#sidebar header h2 {
+		border-bottom: none;
+		letter-spacing: 80%;
+		text-transform: uppercase;
+		margin: 0 0 0.5em 0;
+		font-size: 1.2em;
+	}
+}

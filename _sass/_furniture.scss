@@ -1,0 +1,115 @@
+
+/* masthead layout and formatting */
+
+.site-title {
+	font-family: $title-font;
+	font-weight: normal;
+	color: $title-color;
+	margin: 0;
+}
+
+div#masthead {
+ 	background: $masthead-bg;
+	padding: 0.3em 2em 0 2em;
+	
+	header {
+		@extend .pagestrip;
+		padding-bottom: 0;
+
+		h1 {
+			@extend .site-title;
+		  	font-size: 4em;
+			line-height: 0.8em;
+
+			a {
+				color: $title-color;
+			}
+			a:hover {
+				text-decoration: none;
+			}
+		}
+		h2 {
+			@extend .site-title;
+			font-size: 1.92em;
+			line-height: 1em;
+			margin-left: 0.15em;
+		}
+	}
+
+	nav {
+		max-width: $max-width;
+		margin: auto;
+		padding: 0;
+		font-size: 1.1em;
+
+		ul {
+			padding: 0.1em;
+		}
+		li {
+			display: inline;
+			margin: 0 1em 0 0;
+			padding: 0.2em;
+			font-weight: bold;
+
+			a {
+				color: white;
+			}
+			a:hover {
+				text-decoration: none;
+			}
+		}
+		li:hover {
+			background-color: lighten($masthead-bg, 15%);
+		};
+	}
+	
+}
+
+div#navmenu-btn {
+	background-color: $masthead-bg;
+	color: darken($masthead-bg, 20%);
+	font-size: 1.75em;
+	text-align: right;
+	vertical-align: text-bottom;
+	padding: 3px 4px 0 0;
+	display: none;
+}
+
+
+/* footer layout and formatting */
+
+div#footernav {
+	background: $footer-bg;
+
+	nav {
+		@extend .pagestrip;
+		padding-top: 0;
+		
+		div.navblock {
+			float: left;
+			min-width: 230px;
+			margin-bottom: 1em;
+		}
+		
+		h3 {
+			margin-bottom: 0.3em;
+		}
+	}
+}	
+
+
+div#footercopy {
+	background: $footer-bg;
+
+	footer {
+		@extend .pagestrip;
+		border-top: 1px solid darken($footer-bg, 20%);
+
+		p {
+			font-size: 0.75em;
+			margin-top: 0;
+		}
+	}
+}
+
+

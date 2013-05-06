@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+
+		<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+		<title>The Softvis Project{% if page.title %} &middot; {{ page.title }}{% endif %}</title>
+
+		<link type="text/css" rel="stylesheet" href="{{ site.baseurl }}/assets/stylesheets/reset.css">
+		<link type="text/css" rel="stylesheet" href="{{ site.baseurl }}/assets/stylesheets/screen.css">
+		<link type="text/css" rel="stylesheet" href="{{ site.baseurl }}/assets/stylesheets/pygmentize.css">
+
+		<script src="{{ site.baseurl }}/assets/scripts/moment.min.js"></script>
+		<script src="{{ site.baseurl }}/assets/scripts/jquery-1.9.1.min.js"></script>
+
+		<script>
+		$(document).ready(function() {
+		$('#navmenu-btn').click(function() {
+		  $('li.textnav').toggle();
+		})});
+		</script>
+
+		<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+  	
+	</head>
+
+  <body class="{{ page.layout }}">
+
+		<div id="masthead" class="group">
+			<header>
+				<h1><a href="http://softvis.github.io">The Softvis Project</a></h1>
+				<h2>A collection of software visualisations</p>
+			</header>
+			<div id="navmenu-btn">≡</div>
+			<nav>
+				<ul>
+					<li class="textnav"><a href="{{ site.baseurl }}/">Home</a></li>
+					<li class="textnav"><a href="{{ site.baseurl }}/vis">Visualizations</a></li>
+					<li class="textnav"><a href="{{ site.baseurl }}/news">News</a></li>
+					<li class="textnav"><a href="{{ site.baseurl }}/about">About</a></li>
+				</ul>
+			</nav>
+	 	</div>
+
+		<div id="main" class="group">
+			{{ content }}
+		</div>
+
+		<div id="footernav" class="group">
+			<nav>
+				<div class="navblock">
+					<h3>Site</h3>
+					<ul>
+						<li><a href="{{ site.baseurl }}/">Home</a></li>
+						<li><a href="{{ site.baseurl }}/vis">Visualizations</a></li>
+				  </ul>
+				</div>
+			</nav>
+		</div>
+
+		<div id="footercopy" class="group">
+			<footer>
+		  		<p class="copyright">Copyright &copy; 2012-2013 {{ site.author }}
+			</footer>
+		</div>
+
+  </body>
+</html>

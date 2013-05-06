@@ -1,0 +1,47 @@
+---
+layout: default
+nosidebar: true
+---
+<section>
+	<img src="/assets/images/hero2.png">
+</section>
+
+<section>
+	<p>With the Softvis Project we want to make software visualization more accessible. This collection contains a growing number of visualizations showcasing different kinds of visualization techniques and different areas of application. We hope that the visualizations are useful and easily reproducible in many environments. <i>&mdash; Erik D&ouml;rnenburg &amp; Jonathan McCracken</i>
+</section>
+
+<section class="frontsection">
+	<h2>Project news</h2>
+	{% for post in site.posts limit: 2 %}
+	<article>
+		<h3>{{ post.title }}</h3>
+		<p class="postdate">{{ post.date | date:"%d %b %Y" }}
+		<p>{{ post.content }}
+	</article>
+	{% endfor %}
+	<p><a href="{{ site.baseurl }}/news">more news &rarr;</a>
+</section>
+
+<section class="frontsection">
+	<h2>Github repos</h2>
+    <div id="githubrepos">
+      <li class="loading">Status updating...</li>
+    </div>
+	<p><a href="http://github.com/softvis/">all repositories &rarr;</a>
+    <script type="text/javascript">
+      $(document).ready(function(){
+          github.showRepos({
+              user: '{{site.github_user}}',
+              count: 3,
+              skip_forks: false,
+              target: '#githubrepos'
+          });
+      });
+    </script>
+    <script src="{{ root_url }}/assets/scripts/github.js" type="text/javascript"> </script>
+</section>
+
+<section class="frontsection">
+	{% include featured.html %}
+	<p><a href="{{ site.baseurl }}/vis">all visualizations &rarr;</a>
+</section>

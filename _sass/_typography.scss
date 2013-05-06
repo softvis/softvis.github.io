@@ -1,0 +1,128 @@
+$sans: "Helvetica Neue", Arial, sans-serif !default;
+$serif: Georgia, Times, "Times New Roman", serif !default;
+$mono: Menlo, Monaco, "Andale Mono", "lucida console", "Courier New", monospace !default;
+
+$title-font: "Eurocaps", $mono;
+$heading-font: "NoticiaText", $serif;
+$body-font: $sans;
+
+
+/* custom fonts */
+
+@font-face {
+    font-family: NoticiaText;
+    src: url(/assets/fonts/NoticiaText-Regular.ttf) format('truetype');
+    font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+    font-family: NoticiaText;
+    src: url(/assets/fonts/NoticiaText-Bold.ttf) format('truetype');
+    font-weight: bold;
+	font-style: normal;
+}
+@font-face {
+    font-family: NoticiaText;
+    src: url(/assets/fonts/NoticiaText-Italic.ttf) format('truetype');
+    font-weight: normal;
+	font-style: italic;
+}
+@font-face {
+    font-family: NoticiaText;
+    src: url(/assets/fonts/NoticiaText-BoldItalic.ttf) format('truetype');
+    font-weight: bold;
+	font-style: italic;
+}
+@font-face {
+    font-family: Eurocaps;
+    src: url(/assets/fonts/eurocaps.ttf) format('truetype');
+    font-weight: normal;
+	font-style: normal;
+}
+
+
+/* headings */
+
+.heading {
+	font-family: $heading-font;
+	font-weight: bold;
+	color: $heading-color;
+	
+}
+
+h1 {
+	@extend .heading;
+	font-size: 2em;
+}
+
+h2 {
+	@extend .heading;
+	font-size: 1.5em;
+}
+
+h3 {
+	@extend .heading;
+	font-size: 1.25em;
+}
+
+div#footernav h3 {
+	font-family: $body-font;
+	color: $body-color;
+	font-size: 1.1em;
+}
+
+
+/* body text */ 
+
+p, th, td, ul, li { 
+	font-family: $body-font;
+	line-height: 1.5em;
+	color: $body-color;
+}   
+
+p.postdate {
+	font-size: 0.875em;
+	font-weight: bold;
+}
+
+i {
+	font-style: italic;
+}
+
+b {
+	font-weight: bold;
+}
+
+
+/* links */
+
+a {
+	color: $body-color;
+	text-decoration: none;
+}
+
+p a, li a {
+	color: #374FA8;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+
+/* specials */
+
+.tag {
+	border: 1px solid #AAA;
+	background: #DDD;
+	padding: 1px 3px 0px 2px;
+	border-radius: 3px 3px 3px 3px;
+}
+
+pre {
+	font-family: $mono;
+	font-size: 0.75em; 
+	line-height: 1.3em;
+	color: #444;
+}
+
