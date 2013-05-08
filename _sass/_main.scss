@@ -1,7 +1,7 @@
 /* main sections layout and formatting */
 
 div#main {
-	@extend .pagestrip;
+	@extend .contentblock;
 	margin-top: 2em;
 
 	h2 {

@@ -5,11 +5,13 @@ $section-hspace: 50px !default;
 $heading-color: #333;
 $body-color: #444;
 $body-bg: white;
+$link-color: #374FA8;
 $line-color: #CCC;
 
 $masthead-bg: #FBC71B;
 $title-color: $heading-color;
 
+$comments-bg: #EEE;
 $footer-bg: #CCC;
 
 
@@ -64,7 +66,7 @@ pre {
 	height: 0;
 }
 
-.pagestrip {
+.contentblock {
 	max-width: $max-width;
 	min-width: $min-width;
 	margin: 0 auto 0 auto;

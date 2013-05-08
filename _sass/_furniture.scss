@@ -13,8 +13,8 @@ div#masthead {
 	padding: 0.3em 2em 0 2em;
 	
 	header {
-		@extend .pagestrip;
-		padding-bottom: 0;
+		@extend .contentblock;
+		padding: 1em 0 0 0;
 
 		h1 {
 			@extend .site-title;
@@ -82,7 +82,7 @@ div#footernav {
 	background: $footer-bg;
 
 	nav {
-		@extend .pagestrip;
+		@extend .contentblock;
 		padding-top: 0;
 		
 		div.navblock {
@@ -102,7 +102,7 @@ div#footercopy {
 	background: $footer-bg;
 
 	footer {
-		@extend .pagestrip;
+		@extend .contentblock;
 		border-top: 1px solid darken($footer-bg, 20%);
 
 		p {
