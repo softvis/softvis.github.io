@@ -12,17 +12,17 @@ nocomments: true
 
 	<section id="teaser" class="content">
 		<div class="teaserbox">
-			<h2>About</h2>
+			<h2>Introduction</h2>
 			<p>As a software developers and architects we want to know how good the software is we are developing. Its quality has an obvious external aspect, the software should be of value to its users, but there is also a more elusive internal aspect to quality, to do with the clarity of the design, the ease with which we can understand, maintain, and extend the software. When pressed for a definition, this is where we usually end up saying "I know it when I see it." But how can we see quality? 
-			<p><a href="{{ site.baseurl }}/about">more &rarr;</a>
+			<p><a href="{{ site.baseurl }}/about">continue &rarr;</a>
 		</div>
 
 		<div class="teaserbox">
 			<h2>Project news</h2>
 			{% for post in site.posts limit: 2 %}
 			<article>
-				<h3>{{ post.title }}</h3>
-				<p class="postdate">{{ post.date | date:"%d %b %Y" }}
+				<h3 class="with-info">{{ post.title }}</h3>
+				<p class="info">{{ post.date | date:"%d %b %Y" }}
 				{{ post.content }}
 			</article>
 			{% endfor %}
@@ -32,7 +32,7 @@ nocomments: true
 		<div class="teaserbox">
 			<h2>Github repos</h2>
 		    <div id="githubrepos">
-		    	<p class="loading">Status updating...</li>
+		    	<p class="loading">Updating...</li>
 		    </div>
 			<p><a href="http://github.com/softvis/">all repositories &rarr;</a>
 		    <script type="text/javascript">

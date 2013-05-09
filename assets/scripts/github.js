@@ -3,8 +3,8 @@ var github = (function() {
     var i = 0, fragment = '', t = $(target)[0];
 
     for(i = 0; i < repos.length; i++) {
-      fragment += '<h3><a href="'+repos[i].html_url+'">'+repos[i].name+'</a></h3>' + 
-                  '<p class="postdate">' + repos[i].language + ', updated ' + moment(repos[i].pushed_at).fromNow() +
+      fragment += '<h3 class="with-info"><a href="'+repos[i].html_url+'">'+repos[i].name+'</a></h3>' + 
+                  '<p class="info">' + repos[i].language + ', updated ' + moment(repos[i].pushed_at).fromNow() +
                   '<p>'+(repos[i].description||'');
     }
     t.innerHTML = fragment;

@@ -26,10 +26,6 @@ section.content {
 	}
 }
 
-article h3 {
-	margin-bottom: 0;
-}
-
 /* comment section */
 
 div#pagecomments {
@@ -51,10 +47,10 @@ div.teaserbox {
 	float: left;
 	margin: 0 $boxspacing 2em 0;
 	width: $max-width / 3 - $boxspacing - 1;
+}
 
-	h3 {
-		margin-bottom: 0;
-	}
+h2 + article > h3:first-child, h2 + div > h3:first-child {
+	margin-top: 0;
 }
 
 

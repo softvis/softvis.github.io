@@ -1,7 +1,7 @@
 <article>
   <header>
-    <h3><!-- <a href="{{ post.url }}"> -->{{ post.title }}<!-- </a> --></h3>
-  	<p class="postdate">{{ post.date | date:"%d %B %Y" }}
+    <h3 class="with-info"><!-- <a href="{{ post.url }}"> -->{{ post.title }}<!-- </a> --></h3>
+  	<p class="info">{{ post.date | date:"%d %B %Y" }}
   </header>
   {% if content %}
     {{ content }}
