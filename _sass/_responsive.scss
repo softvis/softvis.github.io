@@ -44,23 +44,3 @@ $largescreen-width: 1000px !default;
 	}
 }
 
-
-/* responsive sidebar for reasonably wide screens */
-
-@media screen and (min-width:$largescreen-width) {
-  	section#content {
-		float: left;
-		width: 75%;
-	}
-  	section#sidebar {
-	   	float: right;
-	  	width: 20%;
-  	}
-	section#sidebar header h2 {
-		border-bottom: none;
-		letter-spacing: 80%;
-		text-transform: uppercase;
-		margin: 0 0 0.5em 0;
-		font-size: 1.2em;
-	}
-}

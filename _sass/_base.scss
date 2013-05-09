@@ -1,6 +1,6 @@
-$max-width: 1000px !default;
+$max-width: 960px !default;
 $min-width: 400px !default;
-$section-hspace: 50px !default;
+$boxspacing: 60px !default;
 
 $heading-color: #333;
 $body-color: #444;
@@ -17,8 +17,13 @@ $footer-bg: #CCC;
 
 /* heading and paragraph spacing */
 
+h1 {
+	margin-bottom: 1em;
+}
+
 h2 {
-	margin-top: 2em;
+	margin-top: 1.5em;
+	margin-bottom: 0.4em;
 }
 
 h2:first-child {
@@ -26,16 +31,22 @@ h2:first-child {
 }
 
 h3 {
-	margin-top: 1em;
+	margin-top: 1.2em;
+	margin-bottom: 0.3em;
 }
 
 p {
-	margin-top: 0.715em;
+	margin-top: 0;
+	margin-bottom: 0.715em;
 }
 	
 p.postdate {
 	margin-top: 0em;
-	margin-bottom: 0;
+	margin-bottom: 0.4em;
+}
+
+p.loading {
+	font-style: italic;
 }
 
 
@@ -57,7 +68,7 @@ pre {
 
 /* layout */
 
-.group:after {
+.pageband:after {
 	visibility: hidden;
 	display: block;
 	font-size: 0;
@@ -66,7 +77,7 @@ pre {
 	height: 0;
 }
 
-.contentblock {
+.bandcontent {
 	max-width: $max-width;
 	min-width: $min-width;
 	margin: 0 auto 0 auto;

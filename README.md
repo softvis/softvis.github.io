@@ -20,7 +20,7 @@ The CSS sheets are generated with [SASS][]. This does not run on Github's server
 
 	gem install sass
 	gem install rb-fsevent
-	sass -style compressed --watch _sass:assets/stylesheets
+	sass --style compressed --watch _sass:assets/stylesheets
 
 Note that both the source (in the __sass_ directory) and the resulting output are checked in on the same branch.
 

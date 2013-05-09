@@ -2,24 +2,19 @@
 layout: default
 ---
 
-<section id="content">
-	<h1>{{ page.title }}</h1>
-	{{ content }}
-</section>
+<div id="pagecontent" class="pageband">
+	<section class="content">
+		<h1>{{ page.title }}</h1>
+		{{ content }}
+	</section>
+</div>
 
-{% unless page.nosidebar %}
-<section id="sidebar">
-	<header>
-		<h2>Latest News</h2>
-	</header>
-	{% for post in site.posts limit: 3 %}
-	<article>
-		<h3>{{ post.title }}</h3>
-		<p class="postdate">{{ post.date | date:"%d %b %Y" }}
-		<p>{{ post.content }}
-	</article>
-	{% endfor %}
-	<p><a href="{{ site.baseurl }}/news">more news &rarr;</a>
-</section>
+{% unless page.nocomments %}
+
+<div id="pagecomments" class="pageband">
+	<section id="comments">
+		<p class="loading">Starting comment system. This can take a few seconds.
+	</section>
+</div>
+
 {% endunless %}
-

@@ -1,8 +1,12 @@
 /* main sections layout and formatting */
 
-div#main {
-	@extend .contentblock;
+div#pagecontent {
 	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+section.content {
+	@extend .bandcontent;
 
 	h2 {
 		padding-bottom: 4px;
@@ -22,41 +26,35 @@ div#main {
 	}
 }
 
-section#content {
-	margin-bottom: 4em;
+article h3 {
+	margin-bottom: 0;
 }
-
-section#sidebar {
-	margin-bottom: 2em;
-
-	h3 {
-		margin-top: 0.7em;
-	}
-	p {
-		font-size: 0.875em;
-	}
-	article {
-		margin-bottom: 1.5em;
-	}
-}
-
-
-/* boxes on homepage */
-
-section.frontsection {
-	float: left;
-	margin: 4em $section-hspace 2em 0;
-	width: $max-width / 3 - $section-hspace - 1;
-}
-
 
 /* comment section */
 
-div#commentstrip {
+div#pagecomments {
 	background: $comments-bg;
 }
 
 section#comments {
-	@extend .contentblock;
+	@extend .bandcontent
 }
+
+
+/* front-page special treatment */
+
+div#frontcontent {
+	margin-top: 2em;
+}
+
+div.teaserbox {
+	float: left;
+	margin: 0 $boxspacing 2em 0;
+	width: $max-width / 3 - $boxspacing - 1;
+
+	h3 {
+		margin-bottom: 0;
+	}
+}
+
 

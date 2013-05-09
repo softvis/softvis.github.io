@@ -39,7 +39,7 @@
 
   <body class="{{ page.layout }}">
 
-		<div id="masthead" class="group">
+		<div id="masthead" class="pageband">
 			<header>
 				<h1><a href="http://softvis.github.io">The Softvis Project</a></h1>
 				<h2>A collection of software visualisations</p>
@@ -49,16 +49,15 @@
 				<ul>
 					<li class="textnav"><a href="{{ site.baseurl }}/">Home</a></li>
 					<li class="textnav"><a href="{{ site.baseurl }}/vis">Visualizations</a></li>
+					<li class="textnav"><a href="{{ site.baseurl }}/news">News</a></li>
 					<li class="textnav"><a href="{{ site.baseurl }}/about">About</a></li>
 				</ul>
 			</nav>
 	 	</div>
 
-		<div id="main" class="group">
-			{{ content }}
-		</div>
+		{{ content }}
 
-		<div id="footernav" class="group">
+		<div id="footernav" class="pageband">
 			<nav>
 				<div class="navblock">
 					<h3>Site</h3>
@@ -70,7 +69,7 @@
 			</nav>
 		</div>
 
-		<div id="footercopy" class="group">
+		<div id="footercopy" class="pageband">
 			<footer>
 		  		<p class="copyright">Copyright &copy; 2012-2013 {{ site.author }} &middot; Site rendered with <a href="http://jekyllrb.com/">Jekyll</a> and <a href="http://sass-lang.com/">SASS</a> &middot; Comments powered by <a href="https://github.com/phusion/juvia">Juvia</a>
 			</footer>

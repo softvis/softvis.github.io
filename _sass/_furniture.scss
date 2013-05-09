@@ -13,7 +13,7 @@ div#masthead {
 	padding: 0.3em 2em 0 2em;
 	
 	header {
-		@extend .contentblock;
+		@extend .bandcontent;
 		padding: 1em 0 0 0;
 
 		h1 {
@@ -37,8 +37,7 @@ div#masthead {
 	}
 
 	nav {
-		max-width: $max-width;
-		margin: auto;
+		@extend .bandcontent;
 		padding: 0;
 		font-size: 1.1em;
 
@@ -82,7 +81,7 @@ div#footernav {
 	background: $footer-bg;
 
 	nav {
-		@extend .contentblock;
+		@extend .bandcontent;
 		padding-top: 0;
 		
 		div.navblock {
@@ -102,7 +101,7 @@ div#footercopy {
 	background: $footer-bg;
 
 	footer {
-		@extend .contentblock;
+		@extend .bandcontent;
 		border-top: 1px solid darken($footer-bg, 20%);
 
 		p {
