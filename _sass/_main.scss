@@ -48,3 +48,15 @@ section.frontsection {
 	margin: 4em $section-hspace 2em 0;
 	width: $max-width / 3 - $section-hspace - 1;
 }
+
+
+/* comment section */
+
+div#commentstrip {
+	background: $comments-bg;
+}
+
+section#comments {
+	@extend .contentblock;
+}
+
