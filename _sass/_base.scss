@@ -7,12 +7,14 @@ $body-color: #444;
 $body-bg: white;
 $link-color: #4183C4;
 $line-color: #CCC;
+$line-style:  1px solid $line-color;
 
 $masthead-bg: #FBC71B;
 $title-color: $heading-color;
 
-$comments-bg: #EEE;
+$comments-bg: #F2F2F2;
 $footer-bg: #CCC;
+
 
 
 /* heading and paragraph spacing */
@@ -64,7 +66,7 @@ pre {
   	margin: .3em 0;
   	padding: .5em .7em;
   	background-color: darken($body-bg, 5%);
-  	border: 1px solid $line-color;
+  	border: $line-style;
 	border-radius: 3px 3px 3px 3px;
  	overflow-x: auto;
 }

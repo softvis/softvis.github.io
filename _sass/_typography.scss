@@ -65,6 +65,11 @@ h3 {
 	font-size: 1.25em;
 }
 
+h4 {
+	@extend .heading;
+	font-size: 1.1em;
+}
+
 div#footernav h3 {
 	font-family: $body-font;
 	color: $body-color;
@@ -85,11 +90,11 @@ p.info {
 	font-weight: bold;
 }
 
-i {
+i, em {
 	font-style: italic;
 }
 
-b {
+b, strong {
 	font-weight: bold;
 }
 

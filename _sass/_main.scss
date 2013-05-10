@@ -10,7 +10,7 @@ section.content {
 
 	h2 {
 		padding-bottom: 4px;
-		border-bottom: 1px solid $line-color;
+		border-bottom: $line-style;
 	}
 	p:first-child {
 		margin-top: 0;
