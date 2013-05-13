@@ -11,6 +11,8 @@
 		<link type="text/css" rel="stylesheet" href="{{ site.baseurl }}/assets/stylesheets/screen.css">
 		<link type="text/css" rel="stylesheet" href="{{ site.baseurl }}/assets/stylesheets/pygmentize.css">
 
+		<!--[if lte IE 8]><link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/stylesheets/ie8-and-down.css" /><![endif]-->
+					
 		<script src="{{ site.baseurl }}/assets/scripts/moment.min.js"></script>
 		<script src="{{ site.baseurl }}/assets/scripts/jquery-1.9.1.min.js"></script>
 
@@ -90,6 +92,10 @@
 	</head>
 
   <body class="{{ page.layout }}">
+
+		<div id="browserwarning" class="pageband">
+			This website does not display correctly in older browsers such as Internet Explorer 8. Commenting may not work in older browsers. Sorry.
+		</div>
 
 		<div id="masthead" class="pageband">
 			<header>

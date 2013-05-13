@@ -8,6 +8,10 @@
 	margin: 0;
 }
 
+div#browserwarning {
+	display: none;
+}
+
 div#masthead {
  	background: $masthead-bg;
 	padding: 0.3em 2em 0 2em;
