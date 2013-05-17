@@ -22,7 +22,7 @@ div#masthead {
 
 		h1 {
 			@extend .site-title;
-		  	font-size: 4em;
+	  	font-size: 400%;
 			line-height: 0.8em;
 
 			a {
@@ -34,9 +34,9 @@ div#masthead {
 		}
 		h2 {
 			@extend .site-title;
-			font-size: 1.92em;
+			font-size: 140%;
 			line-height: 1em;
-			margin-left: 0.15em;
+			margin-left: 0.18em;
 		}
 	}
 
