@@ -6,6 +6,9 @@ paginate: 20
 date_format: "%d %B %Y"
 author: "Erik Dörnenburg & Jonathan McCracken"
 
+safe: true
+lsi: false
+
 github_user: softvis
 github_repo_count: 10
 github_show_profile_link: false

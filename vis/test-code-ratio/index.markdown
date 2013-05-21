@@ -5,7 +5,7 @@ author: Erik Dörnenburg
 date: 2011-08-05 15:50
 vismeta: {
 	subject: "Source code",
-	implementation: ["Ruby", "Gnuplot"],
+	implementation: ["Ruby", "Gnuplot"]
 }
 ---
                                             
