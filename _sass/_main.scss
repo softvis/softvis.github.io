@@ -8,6 +8,16 @@ div#pagecontent {
 section.content {
 	@extend .bandcontent;
 
+	h1 + p, p.byline + p {
+		margin-top: 2em;
+	}
+	
+	p.byline {
+		margin-top: 0.3em;
+		font-size: 0.875em;
+		font-weight: bold;
+	}
+
 	h2 {
 		padding-bottom: 4px;
 		border-bottom: $line-style;

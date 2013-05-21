@@ -1,7 +1,8 @@
 ---
 layout: page
 title: "Metrics Treemaps"
-date: 2013-01-14 12:28
+author: Erik Dörnenburg & Jonathan McCracken
+date: 2012-03-12 12:47
 ---                                            
 _Are there too many classes in my codebase that are excessively large and complex?_ 
 _Are there some classes that stand out for closer inspection?_

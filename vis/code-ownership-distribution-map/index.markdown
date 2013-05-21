@@ -1,7 +1,8 @@
 ---
 layout: page
 title: "Code Ownership Distribution Map"
-date: 2013-01-14 12:28
+author: Jonathan McCracken & Erik Dörnenburg
+date: 2012-02-21 00:45
 ---
 _Who owns the codebase?_
 
