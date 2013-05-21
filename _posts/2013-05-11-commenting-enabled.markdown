@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Commenting enabled"
-date: 2013-05-11
+date: 2013-05-11 00:00
 author: Erik D&ouml;rnenburg
 comments: true
 categories: 
