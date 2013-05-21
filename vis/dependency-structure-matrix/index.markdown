@@ -4,7 +4,7 @@ title: "Dependency Structure Matrix"
 date: 2012-03-26 13:47
 author: Jonathan McCracken & Erik Dörnenburg
 vismeta: {
-	subject: "Source code",
+	subject: "Source code"
 }
 ---
 
