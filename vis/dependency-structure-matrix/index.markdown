@@ -3,9 +3,8 @@ layout: page
 title: "Dependency Structure Matrix"
 date: 2012-03-26 13:47
 author: Jonathan McCracken & Erik Dörnenburg
-vismeta: {
-	subject: "Source code"
-}
+vismeta: true
+subject: "Source code"
 ---
 
 _How isolated and modular is the code?_
