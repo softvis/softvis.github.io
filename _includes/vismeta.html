@@ -1,0 +1,24 @@
+<aside id="vismeta">
+	<table>
+		{% if vismeta.subject %}
+		<tr>
+			<td>Subject:</td><td>{{ vismeta.subject }}</td>
+		</tr>
+		{% endif %}
+		{% if vismeta.implementation %}
+		<tr>
+			<td>Implementation:</td><td>{{ vismeta.implementation | join:', ' }}</td>
+		</tr>
+		{% endif %}
+		{% if vismeta.repository %}
+		<tr>
+			<td>Repository:</td><td><a href="{{ vismeta.repository }}">{{ vismeta.repository | truncate: 30 }}</a></td>
+		</tr>
+		{% endif %}
+		{% if page.date %}
+		<tr>
+			<td>Text updated:</td><td>{{ page.date | date: "%d %B %Y" }}</td>
+		</tr>
+		{% endif %}
+	</table>
+</aside>

@@ -3,6 +3,10 @@ layout: page
 title: "Metrics Treemaps"
 author: Erik Dörnenburg & Jonathan McCracken
 date: 2012-03-12 12:47
+vismeta: {
+	subject: "Java source code",
+	implementation: ["InfoVis"],
+}
 ---                                            
 _Are there too many classes in my codebase that are excessively large and complex?_ 
 _Are there some classes that stand out for closer inspection?_

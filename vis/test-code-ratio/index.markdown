@@ -3,6 +3,10 @@ layout: page
 title: "Test-to-Code ratio chart"
 author: Erik Dörnenburg
 date: 2011-08-05 15:50
+vismeta: {
+	subject: "Source code",
+	implementation: ["Ruby", "Gnuplot"],
+}
 ---
                                             
 _Are we writing enough tests?_ _Are the tests good_? _Are we getting better?_

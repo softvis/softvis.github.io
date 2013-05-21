@@ -3,6 +3,11 @@ layout: page
 title: "Checkin Sparklines"
 author: Erik Dörnenburg & Jonathan McCracken
 date: 2012-03-26 12:28
+vismeta: {
+	subject: "Subversion logs",
+	implementation: ["Java", "HTML", "Spring"],
+	repository: "https://github.com/softvis/checkin-sparklines",
+}
 ---                                          
 _Who has contributed to the codebase?_ _Was it recent?_ _Did they check in many times?_
                                                

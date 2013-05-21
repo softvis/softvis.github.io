@@ -36,6 +36,28 @@ section.content {
 	}
 }
 
+
+/* asides */
+
+aside#vismeta {
+	float: right;
+	width: 320px;
+	
+	table {
+		width: 100%;
+		margin: 1em;
+		font-size: 0.875em;
+		background: $vismeta-bg;
+	}
+	
+	td {
+		border: $line-style;
+		padding: 3px 10px 3px 5px;
+		line-height: 1.1em;
+	}
+}
+
+
 /* comment section */
 
 div#pagecomments {

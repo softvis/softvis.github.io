@@ -3,10 +3,13 @@ layout: page
 title: "Code Ownership Distribution Map"
 author: Jonathan McCracken & Erik Dörnenburg
 date: 2012-02-21 00:45
+vismeta: {
+	subject: "Subversion logs",
+	implementation: ["C#", ".Net", "GDI"],
+	repository: "https://github.com/softvis/code-ownership-map",
+}
 ---
 _Who owns the codebase?_
-
-![Notepad++ Code Ownership](images/notepadplusplus-team.png)
 
 Imagine going on two week vacation to some tropical island and leaving all your work behind to enjoy sea breeze and palm trees. Picture yourself free from thinking about work as you're sure that your colleagues are taking care of everything while you are away. No it's not just a dream - your code and team can work this way - the secret is collective code ownership.
 
@@ -15,6 +18,8 @@ By having everyone on the team understand all parts of the codebase it leads to 
 Sustainable code requires collective ownership of the codebase. The code ownership distribution map allows you to quickly determine if what parts of your codebase are largely owned by the team and which areas have only a single committer.
 
 ## What You'll See
+
+![Notepad++ Code Ownership](images/notepadplusplus-team.png)
 
 The example above is a snippet of Notepad++, an open source text editing program for Windows. The black rectangles represent a particular directory in the codebase, while the colored squares are individual source code files. The color represents ownership, with red indicating that the file is owned by a single committer while green shows files that are owned by the team. Large codebases will produce a very large image, but the color will give you a nice big picture view of ownership.
 
