@@ -4,8 +4,9 @@ sidebar: true
 title: "Visualizations list"
 ---
 
-## Static analysis
+## Static source code analysis
 
+* [Dependency Structure Matrix](dependency-structure-matrix)
 * [Metrics Treemap](metrics-treemap)
 
 
