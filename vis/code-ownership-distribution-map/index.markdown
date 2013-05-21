@@ -4,8 +4,8 @@ title: "Code Ownership Distribution Map"
 author: Jonathan McCracken & Erik Dörnenburg
 date: 2012-02-21 00:45
 vismeta: {
-	subject: "Subversion logs"
-	implementation: ["C#", ".Net", "GDI"]
+	subject: "Subversion logs",
+	implementation: ["C#", ".Net", "GDI"],
 	repository: "https://github.com/softvis/code-ownership-map"
 }
 ---

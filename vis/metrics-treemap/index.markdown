@@ -5,7 +5,7 @@ author: Erik Dörnenburg & Jonathan McCracken
 date: 2012-03-12 12:47
 vismeta: {
 	subject: "Java source code",
-	implementationx: "InfoVis"
+	implementation: ["InfoVis"]
 }
 ---                                            
 _Are there too many classes in my codebase that are excessively large and complex?_ 
