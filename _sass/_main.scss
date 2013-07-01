@@ -75,6 +75,26 @@ div#frontcontent {
 	margin-top: 2em;
 }
 
+table.hero {
+	width: 100%;
+	margin-bottom: .2em;
+	
+	td {
+		padding: 0 20px 10px 0;
+		vertical-align: top;
+	}
+
+	img {
+		width: 100%;
+		border: 2px solid $line-color;
+	}
+	
+	img:hover {
+			border: 2px solid $link-color;
+		}
+
+}
+
 div.teaserbox {
 	float: left;
 	margin: 0 $boxspacing 2em 0;
