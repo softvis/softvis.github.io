@@ -14,7 +14,6 @@ section.content {
 	
 	p.byline {
 		margin-top: 0.3em;
-		font-size: 0.875em;
 		font-weight: bold;
 	}
 
@@ -29,13 +28,17 @@ section.content {
 		font-size: 100%;
 		list-style-type: disc;
 		margin-left: 1.8em;
-		line-height: 1.8em;
 	}
 	li:first-child {
 		margin-top: .8em;
 	}
 }
 
+.narrow {
+	p, ol, ul {
+		width: 80ex;
+	}
+}
 
 /* asides */
 

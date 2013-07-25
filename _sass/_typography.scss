@@ -1,5 +1,5 @@
 $sans: "Helvetica Neue", Arial, sans-serif !default;
-$serif: Georgia, Times, "Times New Roman", serif !default;
+$serif: Georgia, serif !default;
 $mono: Menlo, Monaco, "Andale Mono", "lucida console", "Courier New", monospace !default;
 
 $title-font: "Eurocaps", $mono;
@@ -79,9 +79,10 @@ div#footernav h3 {
 
 /* body text */ 
 
-p, th, td, ul, li { 
+p, th, td, ol, ul, li {
 	font-family: $body-font;
-	line-height: 1.5em;
+	font-size: 1em;
+	line-height: 1.4375em;
 	color: $body-color;
 }   
 
