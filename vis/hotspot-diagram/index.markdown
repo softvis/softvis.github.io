@@ -16,4 +16,4 @@ This is a placeholder entry.
 
 ## References
 
-- [Class Polymetrics Wiki](https://github.com/softvis/class-polymetrics/wiki)
+- [Polymetric Views online](http://softvis.github.io/polymetric-views/public/polymetrics.html)
