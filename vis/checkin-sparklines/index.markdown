@@ -195,15 +195,4 @@ To give the table a compact look and make it match the colour of the generated i
 The code can be used standalone to produce a package of files representing the sparklines. Alternatively, this can obviously be wrapped nicely into a web app.
 
 
-## More
-
-## Classification table
-- Acquisition: static from source (usually)
-- Analysis type: part-to-whole and ranking
-- Analytical interaction: filtering(?)
-- Origin: Treemaps have been used since the early 1990
-- Related patterns / visualisations
-
-
-
 

@@ -143,9 +143,6 @@ Within each directory we sort the classes by owner, starting each time with the 
 ![Comparison of ordered and unordered classes](images/cruisecontrol-committers-comparison.png)
 
 
-## Classification Table
-- Acquisition: metrics over time from source code repository
-- Analysis type: part to whole, ?
-- Analytical interaction: ?
-- Origin: research paper by Stephane Ducasse, Tudor Girba, and Adrian Kuhn (2006, ICSM )
-- Related patterns / visualizations: treeemap
+## Further Reading / References
+
+1. Stéphane Ducasse, Tudor Gîrba, and Adrian Kuhn. Distribution Map. In Proceedings of 22nd IEEE International Conference on Software Maintenance (ICSM '06), p. 203—212, IEEE Computer Society, Los Alamitos CA, 2006. [(PDF)](http://scg.unibe.ch/archive/papers/Duca06cDistributionMap.pdf)

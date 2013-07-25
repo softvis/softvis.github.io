@@ -104,16 +104,6 @@ Let's review how we pulled the depedency structure matrix for Spring .NET. Since
 
 Next, we'll need the free plug-in to generate our graph from Tom Carter (footnote: http://tcdev.free.fr/). Once it's donwloaded and unziped the plug-in you can fire up Reflector and then under "Tools" and "Add-Ins" select the Tcdev.DsmPlugin.dll file from the plug-in.
 
-Finally under "Tools" select "Dependency Structure Matrix" adn select the namespaces you'd like to compare. Once the image is generated you can use a screen shot tool, like Windows 7's Snipping Tool, to grab the matrix.         
-
-{ed: hmmmmmmmm Should this really be in a printed book?}
+Finally under "Tools" select "Dependency Structure Matrix" and select the namespaces you'd like to compare. Once the image is generated you can use a screen shot tool, like Windows 7's Snipping Tool, to grab the matrix.         
 
 To add another level of detail to the matrix you can import the image into a photo editing program like photoshop to highlight areas of high-coupling and low cohension so it's easier for people to see where there are problems.
-
-## Classification Table
-- Acquisition: source code
-- Analysis Type: (from Few book) part to whole, ?
-- Analytical Interaction: (from Few book) sorting, filtering, …
-- Object Orientated Design Focus: Encapsulation (Single Responsibility Principal)
-- Origin: research paper by Neeraj Sangal, Ev Jordan, Vineet Sinha, Daniel Jackson (OOPSLA 2005 )
-- Related Patterns / Visualizations: (other viz that are here )

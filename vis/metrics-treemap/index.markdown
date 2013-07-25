@@ -170,13 +170,3 @@ The interactive Java application makes it possible to map various fields of the 
 As mentioned above the _Squarified_ tiling algorithm does not normally maintain an ordering of the rectangles at the leaf level. InfoVis, however, can sort the rectangles with _Squarified_ and experience shows that sorting the treemap by the same metric that is mapped to the size of the leaf rectangles results in better looking treemaps.
 
 
-## Classification table
-- Acquisition: static from source (usually)
-- Analysis type: part-to-whole and ranking
-- Analytical interaction: filtering(?)
-- Origin: Treemaps have been used since the early 1990
-- Related patterns / visualisations
-
-
-
-
