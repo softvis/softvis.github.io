@@ -32,6 +32,18 @@ section.content {
 	li:first-child {
 		margin-top: .8em;
 	}
+	
+	blockquote {
+		:before {
+			font-size: 2em;
+			color: lighten($body-color, 20%);
+			content: '\201C';
+		}
+		p {
+			font-style: italic;
+		}
+	}
+	
 }
 
 .narrow {

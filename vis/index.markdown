@@ -1,8 +1,14 @@
 ---
 layout: page
 sidebar: true
-title: "Visualizations list"
+title: "Visualizations"
 ---
+
+## Introduction and background
+
+* [A Thousand Words](../intro/athousandwords) -- an essay by Farooq Ali
+* [Get the 1000ft view](../intro/1000ftview) -- an article by Erik Dörnenburg
+
 
 ## Static source code analysis
 
