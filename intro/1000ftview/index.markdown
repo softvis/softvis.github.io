@@ -16,4 +16,3 @@ Manually creating such views and keeping them in sync with the software is a hop
 
 Once a suitable view is available software quality becomes a little less subjective. It is possible to compare the software under development with a handful of similar systems. Comparing different revisions of the same system will give an indication of trends while comparing views of different subsystems can highlight outliers. Even with just a single diagram we can rely on our ability to spot patterns and perceive aesthetics. A well-balanced tree probably represents a successful class hierarchy, a harmonious set of boxes might show code that is organised into appropriately sized classes. Most of the time a very simple relationship holds: If it looks good it probably is good.
                                                                                    
-With this project we aim to describe a collection of software visualisations that implement a such 1000ft views.
