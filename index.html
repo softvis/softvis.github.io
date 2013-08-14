@@ -23,14 +23,18 @@ nocomments: true
 
 	<section id="teaser" class="content">
 		<div class="teaserbox">
-			<h2>Introduction</h2>
-			<p>As a software developers and architects we want to know how good the software is we are developing. Its quality has an obvious external aspect, the software should be of value to its users, but there is also a more elusive internal aspect to quality, to do with the clarity of the design, the ease with which we can understand, maintain, and extend the software. When pressed for a definition, this is where we usually end up saying "I know it when I see it." But how can we see quality? 
+			<h2>About</h2>
+			<p>Why do we care about software visualisations? What can pretty pictures tell us that code and logfiles can't? The answer to these questions lies in scale. Software systems and their development projects have become so large that it has become near impossible to understand them at a high level without additional artefacts.
+			<p>
 			<p><a href="/about">continue &rarr;</a>
+			<h2>Featured</h2>
+			<p>The <a href="/vis/code-ownership-distribution-map/">Code Ownership Distribution Map</a> provides a unque view into the ownership of code on a project. Does the team practice collective code ownership? Do individual authors work in silos? Where do others contribute? The source code management system contains the answers but it takes a map like this to surface the information.
+			<p><a href="/vis/code-ownership-distribution-map/">read more &rarr;</a>
 		</div>
 
 		<div class="teaserbox">
-			<h2>Project news</h2>
-			{% for post in site.posts limit: 2 %}
+			<h2>Site news</h2>
+			{% for post in site.posts limit: 3 %}
 			<article>
 				<h3 class="with-info">{{ post.title }}</h3>
 				<p class="info">{{ post.date | date:"%d %b %Y" }}
@@ -50,7 +54,7 @@ nocomments: true
 		      $(document).ready(function(){
 		          github.showRepos({
 		              user: '{{site.github_user}}',
-		              count: 3,
+		              count: 4,
 		              skip_forks: false,
 		              target: '#githubrepos'
 		          });
