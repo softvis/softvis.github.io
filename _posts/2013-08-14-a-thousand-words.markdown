@@ -6,4 +6,4 @@ author: Erik D&ouml;rnenburg
 comments: true
 categories: 
 ---
-Farooq Ali's "A Thousand Words" is a great introduction to software visualization. Thanks to Farooq and the Pragmatic Programmers the essay is [now available]((/intro/athousandwords) on the Softvis Collection site.
+Farooq Ali's "A Thousand Words" is a great introduction to software visualization. Thanks to Farooq and the Pragmatic Programmers the essay is [now available](/intro/athousandwords) on the Softvis Collection site.
