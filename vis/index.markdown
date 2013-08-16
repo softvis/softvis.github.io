@@ -6,8 +6,8 @@ title: "Visualizations"
 
 ## Introduction and background
 
-* [A Thousand Words](../intro/athousandwords) -- an essay by Farooq Ali
-* [Get the 1000ft view](../intro/1000ftview) -- an article by Erik Dörnenburg
+* [A Thousand Words](../intro/a-thousand-words) -- an essay by Farooq Ali
+* [Get the 1000ft view](../intro/get-the-1000ft-view) -- an article by Erik Dörnenburg
 
 
 ## Static source code analysis
