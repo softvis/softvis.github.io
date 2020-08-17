@@ -1,5 +1,5 @@
 url: "http://softvis.github.io"
-pygments: true
+highligher: rouge
 exclude: [bin, Gemfile, Gemfile.lock, Makefile]
 permalink: pretty
 paginate: 20
